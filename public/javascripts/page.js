@@ -30,7 +30,8 @@ article[0].appendChild(p1);
 // ------------------
 
 var p3 = document.createElement('p');
-p3.innerHTML = "<p>I take credit card payments. Hand it over, sucka!</p>";
+p3.innerHTML = "<p><b>HEY</b>: I now take credit card payments. Hand it over, sucka!</p>";
+
 work[1].appendChild(p3);
 
 var makeForm = document.createElement('form');
@@ -50,7 +51,7 @@ document.body.appendChild(makeForm)
 
 formation("<br>Email: ");
 formation("<br>CC Number: ");
-formation("<br>CC Experation: ");
+formation("<br>CC Exp. MMYY: ");
 formation("<br>CC Verification: ");
 formation("<br>Name: ");
 formation("<br>City: ");
